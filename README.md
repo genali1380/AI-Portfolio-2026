@@ -1,9 +1,13 @@
 # 🤖 Portafolio de Inteligencia Artificial
 
 **Estudiante:** Nelson Villarreal
+
 **Matricula:** 612864
-**Usuario GitHub:** [@genali1380](https://github.com/genali1380)  
-**Semestre:** 6to Semestre  
+
+**Usuario GitHub:** [@genali1380](https://github.com/genali1380)
+
+**Semestre:** 6to Semestre 
+
 **Año:** 2026
 
 ---
