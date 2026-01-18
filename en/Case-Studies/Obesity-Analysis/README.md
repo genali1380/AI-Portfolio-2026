@@ -7,6 +7,7 @@ The database used is a simplified version of the original dataset from the UCI M
 
 ## 🗂️ Navigation Index
 To facilitate review, the repository is structured as follows:
+* 🌐 [**Interactive Web Report**](./Analysis_Report.html): Rendered HTML version for easy reading.
 * 📓 [**Technical Analysis & Methodology**](./Analysis_Report.ipynb): Detailed notebook with data processing and visualizations.
 * 💾 [**Original Dataset**](./Obesity_Data.csv): Source database with records of 2,111 individuals.
 

@@ -7,16 +7,17 @@ La base de datos utilizada es una versión simplificada del dataset original, qu
 
 ## 🗂️ Índice de Navegación
 Para facilitar la revisión del estudio, el repositorio se estructura de la siguiente manera:
-* 📓 [**Análisis Técnico y Metodología**](./Reporte_Análisis.ipynb): Notebook detallado con el procesamiento de datos y visualizaciones.
+* 🌐 [**Reporte Web Interactivo**](./Reporte_Analisis.html): Versión HTML rendersizada para lectura fácil.
+* 📓 [**Análisis Técnico y Metodología**](./Reporte_Analisis.ipynb): Notebook detallado con el procesamiento de datos y visualizaciones.
 * 💾 [**Dataset Original**](./Obesity_Data.csv): Base de datos fuente con registros de 2,111 individuos.
 
 ## 📋 Características del Conjunto de Datos
 La base de datos se compone de información recolectada de 2,111 individuos, capturando una mezcla diversa de perfiles físicos y hábitos de comportamiento.
 
 ### Estructura y Alcance
-Volumen: 2,111 registros con 10 variables cada uno.
-Origen: Estudio multicéntrico realizado en México, Perú y Colombia.
-Naturaleza de los Datos: El dataset combina variables numéricas (mediciones físicas) y categóricas (hábitos y etiquetas descriptivas).
+* **Volumen:** 2,111 registros con 10 variables cada uno.
+* **Origen:** Estudio multicéntrico realizado en México, Perú y Colombia.
+* **Naturaleza de los Datos:** El dataset combina variables numéricas (mediciones físicas) y categóricas (hábitos y etiquetas descriptivas).
 
 ### Diccionario de Variables
 
