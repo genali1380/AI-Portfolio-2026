@@ -1,26 +1,12 @@
 # 🤖 Artificial Intelligence & Data Science Portfolio
 
-Welcome to my professional repository. I am a **Mechatronics Engineering** student currently focused on the intersection of automation, physical systems, and intelligent data analysis. This space showcases independent case studies and technical projects that demonstrate my proficiency in statistical inference and machine learning.
-
-> **Student Info:**
-> * **Name:** Nelson Villarreal
-> * **ID:** 612864
-> * **Semester:** 6th
-> * **Year:** 2026
-
+Welcome to my professional repository. I am Nelson Villarreal, a Mechatronics Engineering student (6th Semester) currently focused on the intersection of automation, physical systems, and intelligent data analysis. This space showcases independent case studies and technical projects that demonstrate my proficiency in statistical inference and machine learning.
 
 ---
 
 # 🤖 Portafolio de Inteligencia Artificial y Ciencia de Datos
 
-Bienvenido a mi repositorio profesional. Soy estudiante de **Ingeniería en Mecatrónica**, enfocado actualmente en la intersección entre la automatización, sistemas físicos y el análisis inteligente de datos. Este espacio presenta casos de estudio independientes y proyectos técnicos que demuestran mi dominio en inferencia estadística y aprendizaje automático.
-
-> **Información del Estudiante:**
-> * **Nombre:** Nelson Villarreal
-> * **Matrícula:** 612864
-> * **Semestre:** 6to
-> * **Año:** 2026
-
+Bienvenido a mi repositorio profesional. Soy Nelson Villarreal, estudiante de Ingeniería en Mecatrónica (6to Semestre), enfocado actualmente en la intersección entre la automatización, sistemas físicos y el análisis inteligente de datos. Este espacio presenta casos de estudio independientes y proyectos técnicos que demuestran mi dominio en inferencia estadística y aprendizaje automático.
 
 ---
 

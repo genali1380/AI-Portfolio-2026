@@ -6,10 +6,13 @@ Este proyecto presenta un análisis estadístico e inferencial sobre datos recop
 La base de datos utilizada es una versión simplificada del dataset original, que viene de parte de UCI Machine Learning Repository; el dataset original se encuentra en el siguiente enlace: https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
 
 ## 🗂️ Índice de Navegación
-Para facilitar la revisión del estudio, el repositorio se estructura de la siguiente manera:
-* 🌐 [**Reporte Web Interactivo**](./Reporte_Analisis.html): Versión HTML rendersizada para lectura fácil.
-* 📓 [**Análisis Técnico y Metodología**](./Reporte_Analisis.ipynb): Notebook detallado con el procesamiento de datos y visualizaciones.
-* 💾 [**Dataset Original**](./Obesity_Data.csv): Base de datos fuente con registros de 2,111 individuos.
+Para facilitar la revisión del estudio, los recursos se presentan en los siguientes formatos:
+
+* 🌐 [**Reporte Interactivo (Vista Web)**](./Reporte_Analisis.html)
+* 📓 [**Cuaderno Técnico (Jupyter Notebook)**](./Reporte_Analisis.ipynb)
+* 💾 [**Datos del Estudio (CSV)**](./Obesity_Data.csv)
+
+---
 
 ## 📋 Características del Conjunto de Datos
 La base de datos se compone de información recolectada de 2,111 individuos, capturando una mezcla diversa de perfiles físicos y hábitos de comportamiento.
