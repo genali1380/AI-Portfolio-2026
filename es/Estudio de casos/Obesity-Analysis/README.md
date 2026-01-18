@@ -9,9 +9,11 @@ La base de datos utilizada es una versión simplificada del dataset original, qu
 
 Para facilitar la revisión del estudio, los recursos se presentan en los siguientes formatos:
 
-* 🌐 [**Reporte Interactivo (Vista Web)**](./Reporte_Análisis.html): **Formato recomendado** para una lectura fluida en el navegador.
-* 📓 [**Cuaderno Técnico (Jupyter Notebook)**](./Reporte_Análisis.ipynb): Documento con el código fuente completo y metodología para fines de reproducibilidad.
-* 💾 [**Datos del Estudio (CSV)**](./Obesity_Data.csv): Base de datos con los registros analizados de México, Perú y Colombia.
+* 🌐 [**Reporte Interactivo (Vista Web)**](./Reporte_Análisis.html)
+* 📓 [**Cuaderno Técnico (Jupyter Notebook)**](./Reporte_Análisis.ipynb)
+* 💾 [**Datos del Estudio (CSV)**](./Obesity_Data.csv)
+
+---
 
 ## 📋 Características del Conjunto de Datos
 La base de datos se compone de información recolectada de 2,111 individuos, capturando una mezcla diversa de perfiles físicos y hábitos de comportamiento.
