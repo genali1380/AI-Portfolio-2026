@@ -1,64 +1,27 @@
-# 🤖 Portafolio de Inteligencia Artificial
+# 🤖 Artificial Intelligence & Data Science Portfolio
 
-**Estudiante:** Nelson Villatiger  
-**Usuario GitHub:** [@genali1380](https://github.com/genali1380)  
-**Semestre:** 6to Semestre  
-**Año:** 2026
+Welcome to my professional repository. I am a **Mechatronics Engineering** student currently focused on the intersection of automation, physical systems, and intelligent data analysis. This space showcases independent case studies and technical projects that demonstrate my proficiency in statistical inference and machine learning.
 
 ---
 
-## 📋 Descripción
+# 🤖 Portafolio de Inteligencia Artificial y Ciencia de Datos
 
-Este repositorio contiene el portafolio completo de la materia **Inteligencia Artificial**, incluyendo todas las actividades prácticas y proyectos desarrollados durante el semestre. El objetivo es demostrar la aplicación de técnicas y algoritmos de IA en problemas reales, utilizando diferentes metodologías y herramientas de análisis de datos.
-
-## 🗂️ Estructura del Repositorio
-
-```
-AI-Portfolio-2026/
-├── Actividades/          # Actividades prácticas del curso
-│   ├── A1.1-Obesity-Analysis/
-│   ├── A1.2-[Próximamente]/
-│   └── A1.3-[Próximamente]/
-└── Proyectos/           # Proyectos integradores
-    └── P1-[Próximamente]/
-```
-
-## 📚 Actividades
-
-### Módulo 1: Análisis de Datos y Regresión
-
-| Actividad | Descripción | Tecnologías | Estado |
-|-----------|-------------|-------------|--------|
-| [A1.1 - Obesity Analysis](./Actividades/A1.1-Obesity-Analysis) | Análisis de datos de obesidad y factores relacionados | Python, Pandas, NumPy | 🔄 En progreso |
-| [A1.2](./Actividades/A1.2-TBD) | Por definir | TBD | ⏳ Pendiente |
-| [A1.3](./Actividades/A1.3-TBD) | Por definir | TBD | ⏳ Pendiente |
-
-## 🚀 Proyectos
-
-| Proyecto | Descripción | Estado |
-|----------|-------------|--------|
-| [P1](./Proyectos/P1-TBD) | Por definir | ⏳ Pendiente |
-
-## 🛠️ Tecnologías Utilizadas
-
-- **Lenguaje:** Python 3.x
-- **Análisis de Datos:** Pandas, NumPy
-- **Visualización:** Matplotlib, Seaborn
-- **Machine Learning:** Scikit-learn
-- **Entorno:** Jupyter Notebook
-
-## 📝 Modalidad de Entrega
-
-Este portafolio sigue la **modalidad especial sobre 110** establecida por el profesor, donde se evalúan:
-- Calidad del código y documentación
-- Análisis y resultados obtenidos
-- Presentación profesional del portafolio
-
-## 📧 Contacto
-
-- **Email:** nelvillatigerh@gmail.com
-- **GitHub:** [@genali1380](https://github.com/genali1380)
+Bienvenido a mi repositorio profesional. Soy estudiante de **Ingeniería en Mecatrónica**, enfocado actualmente en la intersección entre la automatización, sistemas físicos y el análisis inteligente de datos. Este espacio presenta casos de estudio independientes y proyectos técnicos que demuestran mi dominio en inferencia estadística y aprendizaje automático.
 
 ---
 
-*Última actualización: Enero 2026*
+## 🌍 Language Selection / Selección de Idioma
+
+Choose your preferred language to explore the project documentation:
+Selecciona tu idioma de preferencia para explorar la documentación de los proyectos:
+
+| [🇺🇸 English Version](./en/README.md) | [🇲🇽 Versión en Español](./es/README.md) |
+| :--- | :--- |
+| **Full Reports:** Access technical methodology and insights. | **Reportes Completos:** Accede a metodologías y hallazgos técnicos. |
+
+---
+
+## 📧 Contact / Contacto
+
+* **GitHub:** [genali](https://github.com/genali)
+* **Location:** Monterrey, N.L., México.
