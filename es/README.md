@@ -1,12 +1,27 @@
-# Portafolio de Inteligencia Artificial
+# 📂 Portafolio de Casos de Estudio | Español
 
-Bienvenido a la sección en español de mi portafolio profesional. Aquí presento proyectos aplicados que demuestran el análisis de datos desde una perspectiva técnica y de negocio.
-
-## 🗂️ Índice de Casos de Estudio
-
-### [1. Análisis de Factores de Riesgo en Obesidad](./Estudio de casos/Obesity-Analysis/README.md)
-**Tecnologías:** Python, Pandas, Matplotlib, Seaborn
-**Resumen:** Estudio inferencial sobre una población de 2,111 individuos en México, Perú y Colombia. Identifica patrones de correlación entre hábitos de vida y niveles de obesidad, proponiendo variables latentes para mejorar la predicción de riesgo.
+Bienvenido a la sección en español de mi portafolio profesional de Inteligencia Artificial. En este apartado presento proyectos aplicados que demuestran el análisis de datos desde una perspectiva técnica, científica y estratégica.
 
 ---
-[⬅️ Volver al Inicio ](../README.md)
+
+## 🗂️ Índice de Proyectos
+
+### [📊 Análisis de Factores de Riesgo en Obesidad](./Case-Studies/Obesity-Analysis/README.md)
+**Tecnologías:** `Python`, `Pandas`, `Matplotlib`, `Seaborn`
+
+**Resumen del Proyecto:**
+Este estudio inferencial analiza una población de **2,111 individuos** en México, Perú y Colombia. El proyecto se centra en:
+* Identificar patrones de correlación entre hábitos de vida (consumo de vegetales, actividad física) y categorías de salud.
+* Validar la consistencia de los datos mediante visualizaciones avanzadas.
+* Proponer mejoras en el diseño experimental mediante la inclusión de variables de gasto calórico acumulado.
+
+---
+
+## 🛠️ Competencias Demostradas en esta Sección
+* **Limpieza de Datos:** Tratamiento de variables ordinales y normalizadas.
+* **Análisis Exploratorio (EDA):** Identificación de tendencias escalonadas y valores atípicos (outliers).
+* **Escritura Técnica:** Documentación bilingüe orientada a resultados reproducibles.
+
+---
+
+[⬅️ Volver al Inicio del Portafolio](../../README.md)
