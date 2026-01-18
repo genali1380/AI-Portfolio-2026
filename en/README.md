@@ -17,10 +17,9 @@ This inferential study analyzes a population of **2,111 individuals** from Mexic
 
 ---
 
-## 🚀 Projects in Development
+## 🚀 Project
 
-### [🤖 Intelligent Automation & Control (Coming Soon)](#)
-*Integration of predictive models in mechatronic systems and real-time signal analysis.*
+### [Project](./Projects/P1/README.md)
 
 ---
 
