@@ -6,7 +6,7 @@ Bienvenido a la sección en español de mi portafolio profesional de Inteligenci
 
 ## 🗂️ Índice de Casos de Estudio
 
-### [📊 Análisis de Factores de Riesgo en Obesidad](./Estudio%20de%20casos/Obesity-Analysis/README.md)
+### [📊 Análisis de Factores de Riesgo en Obesidad](./Estudio-de-casos/Obesity-Analysis/README.md)
 **Tecnologías:** `Python`, `Pandas`, `Matplotlib`, `Seaborn`
 
 **Resumen del reporte:**
