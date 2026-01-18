@@ -5,7 +5,7 @@ Este proyecto presenta un análisis estadístico e inferencial sobre datos recop
 
 La base de datos utilizada es una versión simplificada del dataset original, que viene de parte de UCI Machine Learning Repository; el dataset original se encuentra en el siguiente enlace: https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
 
-## 🗂️ Índice de Navegación del Proyecto
+## 🗂️ Índice de Navegación
 
 Para facilitar la revisión del estudio, los recursos se presentan en los siguientes formatos:
 
