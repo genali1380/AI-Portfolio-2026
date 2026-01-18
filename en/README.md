@@ -1,12 +1,27 @@
-# Artificial Intelligence Portfolio
+# 📂 Artificial Intelligence Portfolio | English
 
-Welcome to the English section of my professional portfolio. Here I present applied projects demonstrating data analysis from both technical and business perspectives.
+Welcome to the English section of my professional portfolio. This space showcases applied projects that demonstrate data analysis through technical, scientific, and strategic perspectives.
+
+---
 
 ## 🗂️ Case Study Index
 
-### [1. Obesity Risk Factor Analysis](./Case-Studies/Obesity-Analysis/README.md)
-**Technologies:** Python, Pandas, Matplotlib, Seaborn
-**Summary:** Inferential study on a population of 2,111 individuals in Mexico, Peru, and Colombia. Identifies correlation patterns between lifestyle habits and obesity levels, proposing latent variables to improve risk prediction.
+### [📊 Obesity Risk Factor Analysis](./Case-Studies/Obesity-Analysis/README.md)
+**Technologies:** `Python`, `Pandas`, `Matplotlib`, `Seaborn`
+
+**Report Summary:**
+This inferential study analyzes a population of **2,111 individuals** from Mexico, Peru, and Colombia. The project focuses on:
+* Identifying correlation patterns between lifestyle habits (vegetable consumption, physical activity) and health categories.
+* Validating data consistency through advanced visualizations.
+* Proposing experimental design improvements by including cumulative energy expenditure variables.
 
 ---
-[⬅️ Back to Home](../README.md)
+
+## 🚀 Projects in Development
+
+### [🤖 Intelligent Automation & Control (Coming Soon)](#)
+*Integration of predictive models in mechatronic systems and real-time signal analysis.*
+
+---
+
+[⬅️ Back to Portfolio Home](../README.md)
