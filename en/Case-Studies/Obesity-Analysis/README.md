@@ -6,9 +6,12 @@ This project presents a statistical and inferential analysis of data collected f
 The database used is a simplified version of the original dataset from the UCI Machine Learning Repository; the original dataset can be found at the following link: https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
 
 ## 🗂️ Navigation Index
-To facilitate review, the repository is structured as follows:
-* 📓 [**Technical Analysis & Methodology**](./Analysis_Report.ipynb): Detailed notebook with data processing and visualizations.
-* 💾 [**Original Dataset**](./Obesity_Data.csv): Source database with records of 2,111 individuals.
+
+To facilitate the review of this study, resources are presented in the following formats:
+
+* 🌐 [**Interactive Report (Web View)**](./Analysis_Report.html): **Recommended format** for seamless browser viewing.
+* 📓 [**Technical Notebook (Jupyter)**](./Analysis_Report.ipynb): Document containing full source code and methodology for reproducibility purposes.
+* 💾 [**Study Dataset (CSV)**](./Obesity_Data.csv): Database containing the analyzed records from Mexico, Peru, and Colombia.
 
 ## 📋 Dataset Characteristics
 The database consists of information collected from 2,111 individuals, capturing a diverse mix of physical profiles and behavioral habits.
