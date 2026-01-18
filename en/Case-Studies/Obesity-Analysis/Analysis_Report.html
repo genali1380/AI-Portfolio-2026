@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Analysis_Report</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Notebook</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7517,8 +7517,20 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Technical-Report:-Exploratory-Data-Analysis-on-Obesity-Risks">Technical Report: Exploratory Data Analysis on Obesity Risks<a class="anchor-link" href="#Technical-Report:-Exploratory-Data-Analysis-on-Obesity-Risks">¶</a></h1><p><strong>Scope:</strong> This document presents a detailed statistical and exploratory analysis of a multidimensional dataset related to obesity levels in populations from <strong>Mexico, Peru, and Colombia</strong>. The objective is to identify patterns, validate data consistency, and propose study design improvements for future iterations.</p>
-<hr/>
+<h1 id="Technical-Report:-Risk-Factor-Analysis-in-Obesity-(Mexico,-Peru,-and-Colombia)">Technical Report: Risk Factor Analysis in Obesity (Mexico, Peru, and Colombia)<a class="anchor-link" href="#Technical-Report:-Risk-Factor-Analysis-in-Obesity-(Mexico,-Peru,-and-Colombia)">¶</a></h1><h2 id="1.-Introduction">1. Introduction<a class="anchor-link" href="#1.-Introduction">¶</a></h2><p>Obesity is a multi-causal public health challenge that critically affects the Latin American region. This report presents an exploratory and inferential analysis based on the dataset by Palechor and De la Hoz (2019). The primary goal is to identify how lifestyle habits and physical conditions influence the Obesity Level.</p>
+<p>Moving beyond a generic analysis, this study focuses on the male subpopulation to validate whether global trends persist under a specific demographic filter, enabling a more granular interpretation of the associated risks.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f7cab964">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="2.-Methodology">2. Methodology<a class="anchor-link" href="#2.-Methodology">¶</a></h2><p>The execution of this study was based on an analytical workflow designed to ensure the transparency and reproducibility of the findings. The process began with the data acquisition and cleaning phase, where the original dataset was loaded to validate the integrity of the data structures and the nature of the variables. Subsequently, a descriptive analysis focused on the frequency of weight categories was implemented, establishing a baseline for the health distribution within the global sample of 2,111 records.</p>
+<p>To delve deeper into the relationship between behavioral habits and physical condition, advanced statistical visualization techniques were utilized, employing box plots and bar charts to facilitate the identification of visual correlations and outliers. All processing was carried out under a critical approach that distinguishes between direct physical measurements and those variables that, due to the dataset's prior statistical preprocessing, require an interpretation based on trends rather than absolute values.</p>
 </div>
 </div>
 </div>
@@ -7529,7 +7541,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.-Initial-Data-Exploration">1. Initial Data Exploration<a class="anchor-link" href="#1.-Initial-Data-Exploration">¶</a></h2><p>To begin, we will load the dataset and perform a preliminary inspection to understand its structure, volume, and the nature of the recorded variables. For this purpose, we will use <code>pandas</code>, an industry-standard tool for structured data manipulation and analysis.</p>
+<h3 id="2.1-Initial-Data-Exploration">2.1 Initial Data Exploration<a class="anchor-link" href="#2.1-Initial-Data-Exploration">¶</a></h3><p>To begin, we will load the dataset and perform a preliminary inspection to understand its structure, volume, and the nature of the recorded variables. For this purpose, we will use <code>pandas</code>, an industry-standard tool for structured data manipulation and analysis.</p>
 </div>
 </div>
 </div>
@@ -7576,7 +7588,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Structure-Visualization">Structure Visualization<a class="anchor-link" href="#Structure-Visualization">¶</a></h3><p>We use the <code>head()</code> command to display the first entries of the database. This allows us to quickly validate that the file reading was correct and observe the column formatting.</p>
+<h4 id="Structure-Visualization">Structure Visualization<a class="anchor-link" href="#Structure-Visualization">¶</a></h4><p>We use the <code>head()</code> command to display the first entries of the database. This allows us to quickly validate that the file reading was correct and observe the column formatting.</p>
 </div>
 </div>
 </div>
@@ -7711,7 +7723,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Study-Dimensions">Study Dimensions<a class="anchor-link" href="#Study-Dimensions">¶</a></h3><p>The <code>shape</code> property indicates the total dimensions of the database (rows x columns).</p>
+<h4 id="Study-Dimensions">Study Dimensions<a class="anchor-link" href="#Study-Dimensions">¶</a></h4><p>The <code>shape</code> property indicates the total dimensions of the database (rows x columns).</p>
 </div>
 </div>
 </div>
@@ -7750,7 +7762,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Data-Typology">Data Typology<a class="anchor-link" href="#Data-Typology">¶</a></h3><p>The report generated by <code>info()</code> is fundamental for auditing data quality. It allows us to identify:</p>
+<h4 id="Data-Typology">Data Typology<a class="anchor-link" href="#Data-Typology">¶</a></h4><p>The report generated by <code>info()</code> is fundamental for auditing data quality. It allows us to identify:</p>
 <ul>
 <li><strong>Data Types:</strong> Whether variables are numerical (e.g., <code>float64</code> for decimals) or categorical (e.g., <code>object</code> for text).</li>
 <li><strong>Consistency:</strong> If there are missing values (nulls) that require treatment.</li>
@@ -7840,7 +7852,7 @@ memory usage: 165.1+ KB
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <blockquote>
-<p><strong>Technical Note:</strong> The variables <code>VegetableConsumption</code> and <code>WaterConsumption</code> are presented as continuous numerical values due to normalization processes. However, they originally represent frequency levels on a scale of 1 to 3. This ordinal nature is analyzed in detail in the subsequent sections of this report.</p>
+<p><strong>Technical Note:</strong> The variables <code>VegetableConsumption</code> and <code>WaterConsumption</code> are presented in the dataset as continuous numerical values (with decimals). However, in their original design they represent frequency levels on a scale of <strong>1 to 3</strong>. The presence of decimals is the result of data preprocessing and augmentation techniques (such as SMOTE) applied to balance the set; therefore they should be interpreted as trend indicators within those ordinal levels.</p>
 </blockquote>
 </div>
 </div>
@@ -7852,7 +7864,7 @@ memory usage: 165.1+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Statistical-Profile">Statistical Profile<a class="anchor-link" href="#Statistical-Profile">¶</a></h3><p>For numerical variables, we generate a statistical summary that includes measures of central tendency (mean) and dispersion (standard deviation, ranges).</p>
+<h4 id="Statistical-Profile">Statistical Profile<a class="anchor-link" href="#Statistical-Profile">¶</a></h4><p>For numerical variables, we generate a statistical summary that includes measures of central tendency (mean) and dispersion (standard deviation, ranges).</p>
 </div>
 </div>
 </div>
@@ -8011,7 +8023,7 @@ memory usage: 165.1+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2.-Reflection-on-Study-Design">2. Reflection on Study Design<a class="anchor-link" href="#2.-Reflection-on-Study-Design">¶</a></h2><p>After analyzing the available data, the inclusion of an <strong>additional variable</strong> is proposed, which would significantly complement the study:</p>
+<h2 id="2.2-Reflection-on-Study-Design">2.2 Reflection on Study Design<a class="anchor-link" href="#2.2-Reflection-on-Study-Design">¶</a></h2><p>After analyzing the available data, the inclusion of an <strong>additional variable</strong> is proposed, which would significantly complement the study:</p>
 <p><em><strong>Proposed Variable:</strong></em> <strong>"Weekly Exercise Hours"</strong> (or Physical Activity Frequency)</p>
 <p><strong>Justification:</strong>
 Observing the current variables, we have information regarding caloric <strong>intake</strong> (<em>HighCaloricIntake, VegetableConsumption, WaterConsumption</em>), but we lack detailed information regarding caloric <strong>expenditure</strong>. If the objective is to study obesity, knowing only how much people eat without knowing how much they move provides only half of the equation.</p>
@@ -8035,18 +8047,16 @@ Observing the current variables, we have information regarding caloric <strong>i
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="3.-Definition-of-a-Variable-of-Interest-for-Inference">3. Definition of a Variable of Interest for Inference<a class="anchor-link" href="#3.-Definition-of-a-Variable-of-Interest-for-Inference">¶</a></h2><p><strong>Selected Variable:</strong> <code>Obesity_Level</code> (Column: <code>NivelDeObesidad</code>)</p>
+<h3 id="2.3-Definition-of-a-variable-of-interest-for-inference">2.3 Definition of a variable of interest for inference<a class="anchor-link" href="#2.3-Definition-of-a-variable-of-interest-for-inference">¶</a></h3><p><strong>Selected Variable:</strong> <code>ObesityLevel</code></p>
 <p><strong>Justification:</strong>
-The objective of an inference study is to explain the <em>why</em> of a phenomenon. Upon analyzing the available variables, <code>Obesity_Level</code> acts as the logical "consequence" of the interaction between the other factors:</p>
+The primary goal of an inferential study is to explain the "why" behind a specific phenomenon. When analyzing the available variables, <code>ObesityLevel</code> is identified as the logical "consequence" resulting from the interaction between various biological and behavioral factors:</p>
 <ul>
-<li><strong>Discarding other options:</strong><ul>
-<li>Biological variables such as <em>Sex</em>, <em>Age</em>, or <em>Height</em> are intrinsic or random characteristics, not the results of behavior.</li>
-<li><em>Weight</em> is a strong candidate, but it is a raw metric that can be misleading (e.g., athletes with high muscle mass). <code>Obesity_Level</code> offers a more precise categorization of health status.</li>
-<li>Habits (<em>Smoking, Water/Vegetable Consumption</em>) serve better as <strong>causes</strong> (predictor variables) rather than effects.</li>
+<li><strong>Limited biological variables:</strong> Factors such as <em>Gender</em>, <em>Age</em>, or <em>Height</em> are intrinsic or random characteristics of the individual; therefore, they function as inputs (predictors) rather than behavioral outcomes.</li>
+<li><strong>Limitations of Weight as a raw metric:</strong> Although <em>Weight</em> is a strong candidate, it can be statistically misleading. This occurs because weight does not distinguish between body compartments; for example, individuals with a high density of <strong>lean mass</strong> (muscle and bone tissue) may register high weights without this representing a metabolic risk due to excess fat.</li>
+<li><strong>Obesity Level as a health metric:</strong> This variable acts as a categorization that normalizes weight relative to height, offering a more precise assessment of clinical risk than weight alone.</li>
+<li><strong>Habits as predictor variables:</strong> Behaviors (such as <em>Smoking</em> and <em>Water/Vegetable Consumption</em>) function more effectively as <strong>causes</strong> or predictor variables, whose cumulative effect is reflected in the individual's weight category.</li>
 </ul>
-</li>
-</ul>
-<p>Therefore, it makes perfect logical sense to attempt to infer a person's obesity level based on their habits and demographics.</p>
+<p>Therefore, it is logically consistent to attempt to infer an individual's obesity level based on the relationship between their habits, demography, and physical constitution.</p>
 </div>
 </div>
 </div>
@@ -8120,13 +8130,26 @@ Name: proportion, dtype: object
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=056dc22e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Interpretation of Category Distribution:</strong></p>
+<p>When observing the frequency of obesity levels, it is notable that <strong>Obesity_Type_I</strong> is the category with the highest representation in the analyzed population. This indicates that a significant portion of the evaluated individuals is already in a state of active clinical risk.</p>
+<p>Conversely, the <strong>Insufficient_Weight</strong> category presents the lowest frequency, which suggests that, within this geographic context (Mexico, Peru, and Colombia), the health problem is significantly more inclined toward excess body mass rather than weight insufficiency.</p>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e1b16f9b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="4.-Graphical-Analysis:-Subpopulation-Focus">4. Graphical Analysis: Subpopulation Focus<a class="anchor-link" href="#4.-Graphical-Analysis:-Subpopulation-Focus">¶</a></h2><p><strong>Selected Subpopulation:</strong> Men (<code>Male</code>)
+<h2 id="2.4-Graphical-Analysis:-Subpopulation-Focus">2.4 Graphical Analysis: Subpopulation Focus<a class="anchor-link" href="#2.4-Graphical-Analysis:-Subpopulation-Focus">¶</a></h2><p><strong>Selected Subpopulation:</strong> Men (<code>Male</code>)
 <strong>Variables to Analyze:</strong> <code>Weight</code> (Potential Cause/Direct Correlation) vs <code>Obesity_Level</code> (Variable of Interest)</p>
 <p><strong>Justification:</strong>
 We have decided to filter the dataset to exclusively analyze the male population and observe the direct relationship between their weight in kilograms and their obesity classification. We expect to see a clear positive correlation, but the boxplot will allow us to visualize ranges and detect overlaps (e.g., Are there men with "Overweight" who weigh more than someone with "Obesity Type I" due to their height?).</p>
@@ -8225,13 +8248,25 @@ We have decided to filter the dataset to exclusively analyze the male population
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a2b996bc">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="3.-Conclusions">3. Conclusions<a class="anchor-link" href="#3.-Conclusions">¶</a></h2><p>After completing the exploratory and inferential analysis, the results reveal that the studied population in Mexico, Peru, and Colombia presents a health challenge significantly skewed toward excess body mass. The high prevalence of individuals in the Obesity Type I category is a critical finding that underscores the need to strengthen preventive intervention policies, especially considering that weight insufficiency is the least frequent condition in the sample. The consistency observed between body weight and the tiering of risk categories validates the robustness of the original labeling, confirming that this dataset is a valuable resource for training future machine learning models.</p>
+<p>However, it is essential to highlight a significant technical limitation regarding data granularity. Variables related to water and vegetable consumption exhibit a continuous nature due to data augmentation techniques (SMOTE); therefore, they must be interpreted strictly as trend indicators within ordinal levels. For future research, it is recommended to integrate metrics for active caloric expenditure and lean mass composition, which would allow for a more comprehensive understanding of the etiology of obesity in the region, overcoming the limitations inherent in an analysis based exclusively on weight and height.</p>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bfd929e6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="References">References<a class="anchor-link" href="#References">¶</a></h2><ul>
+<h2 id="4.-References">4. References<a class="anchor-link" href="#4.-References">¶</a></h2><ul>
 <li><p>Palechor, F. M., &amp; De la Hoz Manotas, A. (2019). Estimation of obesity levels based on eating habits and physical condition [Data set]. UCI Machine Learning Repository. <a href="https://doi.org/10.24432/C5H31Z">https://doi.org/10.24432/C5H31Z</a></p>
 </li>
 <li><p>World Health Organization. (2020). WHO guidelines on physical activity and sedentary behaviour. World Health Organization. <a href="https://www.who.int/publications/i/item/9789240015128">https://www.who.int/publications/i/item/9789240015128</a></p>
