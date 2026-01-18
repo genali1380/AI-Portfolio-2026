@@ -6,7 +6,7 @@ Bienvenido a la sección en español de mi portafolio profesional de Inteligenci
 
 ## 🗂️ Índice de Casos de Estudio
 
-### [📊 Análisis de Factores de Riesgo en Obesidad](./Case-Studies/Obesity-Analysis/README.md)
+### [📊 Análisis de Factores de Riesgo en Obesidad](./Estudio%20de%20casos/Obesity-Analysis/README.md)
 **Tecnologías:** `Python`, `Pandas`, `Matplotlib`, `Seaborn`
 
 **Resumen del reporte:**
@@ -17,11 +17,9 @@ Este estudio inferencial analiza una población de **2,111 individuos** en Méxi
 
 ---
 
-## 🛠️ Competencias Demostradas en esta Sección
-* **Limpieza de Datos:** Tratamiento de variables ordinales y normalizadas.
-* **Análisis Exploratorio (EDA):** Identificación de tendencias escalonadas y valores atípicos (outliers).
-* **Escritura Técnica:** Documentación bilingüe orientada a resultados reproducibles.
+## 🗂️ Proyecto
 
----
+### [ Proyecto-ToBeDefined ](./Proyectos/P1/README.md)
+
 
 [⬅️ Volver al Inicio del Portafolio](../../README.md)
