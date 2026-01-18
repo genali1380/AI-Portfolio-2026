@@ -22,4 +22,4 @@ Este estudio inferencial analiza una población de **2,111 individuos** en Méxi
 ### [ Proyecto-ToBeDefined ](./Proyectos/P1/README.md)
 
 
-[⬅️ Volver al Inicio del Portafolio](../../README.md)
+[⬅️ Volver al Inicio del Portafolio](../README.md)
