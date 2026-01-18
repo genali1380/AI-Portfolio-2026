@@ -8,9 +8,9 @@ La base de datos utilizada es una versión simplificada del dataset original, qu
 ## 🗂️ Índice de Navegación
 Para facilitar la revisión del estudio, los recursos se presentan en los siguientes formatos:
 
-* 🌐 [**Reporte Interactivo (Vista Web)**](./Reporte_Analisis.html)
-* 📓 [**Cuaderno Técnico (Jupyter Notebook)**](./Reporte_Analisis.ipynb)
-* 💾 [**Datos del Estudio (CSV)**](./Obesity_Data.csv)
+* 🌐 [**Reporte Interactivo (Vista Web)**](./Reporte_Analisis.html): **Formato recomendado** para lectura fluida en navegador.
+* 📓 [**Cuaderno Técnico (Jupyter Notebook)**](./Reporte_Analisis.ipynb): Documento con código fuente y metodología para reproducibilidad.
+* 💾 [**Datos del Estudio (CSV)**](./Obesity_Data.csv): Base de datos con los registros analizados de México, Perú y Colombia.
 
 ---
 
