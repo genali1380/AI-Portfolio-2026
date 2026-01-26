@@ -17,6 +17,17 @@ Este estudio inferencial analiza una población de **2,111 individuos** en Méxi
 
 ---
 
+### [📊 Análisis de Felicidad Mundial](./Estudio-de-casos/Felicidad-Analsis/README.md)
+**Tecnologías:** `Python`, `Pandas`, `Matplotlib`, `Seaborn`, `Statsmodels`
+
+**Resumen del reporte:**
+Este estudio estadístico explora la relación entre el PIB y la felicidad nacional utilizando datos de **más de 140 países**. El proyecto se centra en:
+* Cuantificar el impacto del ingreso económico en la felicidad mediante Regresión Lineal Simple.
+* Integrar variables psicosociales (Apoyo Social, Esperanza de Vida, Libertad) mediante Regresión Lineal Múltiple.
+* Probar la hipótesis de redundancia del PIB al controlar por factores de bienestar humano.
+
+---
+
 ## 🗂️ Proyecto
 
 ### [ Proyecto-ToBeDefined ](./Proyectos/P1/README.md)
