@@ -42,7 +42,7 @@ The final analysis was performed on a sample of **139 countries**. Below are the
 ---
 
 ## 🛠️ Tools Used
-* **Language:** Python 3.
+* **Language:** Python 3.14.2
 * **Libraries:** `Pandas` (Cleaning and Merging), `Statsmodels` (Statistical Inference), `Matplotlib` & `Seaborn` (Visualization).
 * **Techniques:** Linear Regression (Simple and Multiple), Shapiro-Wilk Test, Partial F-Test.
 
