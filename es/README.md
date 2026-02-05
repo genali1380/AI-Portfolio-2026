@@ -28,6 +28,17 @@ Este estudio estadístico explora la relación entre el PIB y la felicidad nacio
 
 ---
 
+### [📊 Modelo Predictivo de Rendimiento Académico](./Estudio-de-casos/Calificaciones-Analisis/README.md)
+**Tecnologías:** `Python`, `Pandas`, `Matplotlib`, `Seaborn`, `Statsmodels`
+
+**Resumen del reporte:**
+Este proyecto de ingeniería de datos desarrolla un modelo de regresión lineal robusto para predecir la calificación final ($G3$) de estudiantes de nivel secundaria. El análisis se centra en:
+* Aplicar el **Principio de Parsimonia**, demostrando que un modelo simplificado de **3 variables** iguala la precisión de modelos complejos.
+* Implementar algoritmos de selección de características (*Forward Selection*) y validación cruzada para evitar el sobreajuste.
+* Gestionar casos de **deserción escolar** (ceros estructurales) para garantizar predicciones realistas y honestas.
+
+---
+
 ## 🗂️ Proyecto
 
 ### [ Proyecto-ToBeDefined ](./Proyectos/P1/README.md)
