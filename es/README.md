@@ -41,7 +41,14 @@ Este proyecto de ingeniería de datos desarrolla un modelo de regresión lineal 
 
 ## 🗂️ Proyecto
 
-### [ Proyecto-ToBeDefined ](./Proyectos/P1/README.md)
+### [📊 Análisis de Determinantes del Ingreso en México](./Proyectos/P1/README.md)
+**Tecnologías:** `Python`, `Pandas`, `Statsmodels`, `Scikit-learn`
+
+**Resumen del reporte:**
+Este proyecto econométrico cuantifica los factores que determinan el ingreso laboral en México utilizando datos de la **ENOE 2025**. El análisis se centra en:
+*   Estimar a través de la **Ecuación de Mincer** el retorno de la educación (+6.21% por año) y la experiencia.
+*   Medir la brecha salarial de género, encontrando una penalización del **-18.54% para mujeres** *ceteris paribus*.
+*   Aplicar limpieza avanzada de datos con **Isolation Forest** para eliminar anomalías multidimensionales en el mercado laboral.
 
 
 [⬅️ Volver al Inicio del Portafolio](../README.md)
