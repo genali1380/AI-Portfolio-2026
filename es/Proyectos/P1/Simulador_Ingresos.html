@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Ingresos | Mincer Aumentada</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-hover: #4f46e5;
+            --bg-gradient: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+            --card-bg: rgba(255, 255, 255, 0.1);
+            --card-border: rgba(255, 255, 255, 0.2);
+            --text-main: #ffffff;
+            --text-secondary: #94a3b8;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-main);
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 40px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            text-align: center;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(to right, #818cf8, #c7d2fe);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p.subtitle {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--card-border);
+            border-radius: 8px;
+            color: white;
+            font-size: 1rem;
+            transition: all 0.3s;
+            box-sizing: border-box;
+            /* Fix for padding increasing width */
+        }
+
+        input:focus,
+        select:focus {
+            outline: none;
+            border-color: var(--primary);
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            background: var(--primary);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, background 0.3s;
+            margin-top: 1rem;
+        }
+
+        button:hover {
+            background: var(--primary-hover);
+            transform: translateY(-2px);
+        }
+
+        #result {
+            margin-top: 2rem;
+            padding: 20px;
+            background: rgba(99, 102, 241, 0.1);
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            display: none;
+        }
+
+        #prediction {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #818cf8;
+            margin: 10px 0;
+        }
+
+        .disclaimer {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-align: center;
+            margin-top: 1.5rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🔮 Simulador de Ingresos</h1>
+        <p class="subtitle">Modelo Mincer Aumentado (Mexico 2025)</p>
+
+        <div class="form-group">
+            <label for="edu">🎓 Años de Escolaridad</label>
+            <input type="number" id="edu" placeholder="Ej: 16 (Licenciatura)" min="0" max="25">
+        </div>
+
+        <div class="form-group">
+            <label for="age">🎂 Edad</label>
+            <input type="number" id="age" placeholder="Ej: 30" min="15" max="90">
+        </div>
+
+        <div class="form-group">
+            <label for="hours">⏱️ Horas trabajadas por semana</label>
+            <input type="number" id="hours" placeholder="Ej: 40" min="1" max="100">
+        </div>
+
+        <div class="form-group">
+            <label for="gender">👤 Género</label>
+            <select id="gender">
+                <option value="male">Hombre</option>
+                <option value="female">Mujer</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="role">💼 Posición Ocupacional</label>
+            <select id="role">
+                <option value="employee">Empleado / Subordinado</option>
+                <option value="freelancer">Cuenta Propia / Freelancer</option>
+                <option value="employer">Empleador / Patrón</option>
+            </select>
+        </div>
+
+        <button onclick="calculateIncome()">Calcular Predicción</button>
+
+        <div id="result">
+            <span>Ingreso Mensual Estimado:</span>
+            <div id="prediction">$0 MXN</div>
+        </div>
+
+        <p class="disclaimer">
+            * Predicción basada en un modelo estadístico R²=0.27 (población pura ENOE 2025).
+            Los resultados son estimaciones generales y no garantizan ingresos reales.
+        </p>
+    </div>
+
+    <script>
+        function calculateIncome() {
+            // Coeficientes extraídos del modelo OLS Final
+            const COEFS = {
+                const: 7.3267,
+                hrsocup: 0.0103,
+                anios_esc: 0.0267,
+                es_mujer: -0.2479,
+                rol_patron: 0.3535,
+                rol_cuenta_propia: 0.5507,
+                eda_cuadrado: -0.0005,
+                eda: 0.0425
+            };
+
+            // Obtener valores del DOM
+            const edu = parseFloat(document.getElementById('edu').value) || 0;
+            const age = parseFloat(document.getElementById('age').value) || 0;
+            const hours = parseFloat(document.getElementById('hours').value) || 0;
+            const gender = document.getElementById('gender').value;
+            const role = document.getElementById('role').value;
+
+            // Variables Dummies
+            const isFemale = gender === 'female' ? 1 : 0;
+            const isPatron = role === 'employer' ? 1 : 0;
+            const isFreelance = role === 'freelancer' ? 1 : 0;
+
+            // Ecuación Minceriana
+            let logIncome = COEFS.const +
+                (COEFS.hrsocup * hours) +
+                (COEFS.anios_esc * edu) +
+                (COEFS.es_mujer * isFemale) +
+                (COEFS.rol_patron * isPatron) +
+                (COEFS.rol_cuenta_propia * isFreelance) +
+                (COEFS.eda * age) +
+                (COEFS.eda_cuadrado * (age * age));
+
+            // Transformación Inversa (Log -> Pesos)
+            // Se usa exp(log_y) - 1 porque el modelo usó log1p
+            let income = Math.exp(logIncome) - 1;
+
+            // Formato de Moneda
+            const formatter = new Intl.NumberFormat('es-MX', {
+                style: 'currency',
+                currency: 'MXN',
+                minimumFractionDigits: 0
+            });
+
+            // Mostrar Resultado con animación simple
+            const resultDiv = document.getElementById('result');
+            const predictionText = document.getElementById('prediction');
+
+            resultDiv.style.display = 'block';
+            resultDiv.style.opacity = '0';
+
+            setTimeout(() => {
+                predictionText.innerHTML = formatter.format(income);
+                resultDiv.style.transition = 'opacity 0.5s';
+                resultDiv.style.opacity = '1';
+            }, 100);
+        }
+    </script>
+</body>
+
+</html>

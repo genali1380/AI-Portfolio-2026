@@ -7,6 +7,7 @@
 | 📓 **[Notebook de Análisis](./Analisis_Ingresos.ipynb)** | Código completo en Jupyter Notebook |
 | 🌐 **[Reporte Web](./Analisis_Ingresos.html)** | Versión HTML para lectura fácil |
 | 💾 **[Dataset (ENOE)](https://drive.google.com/file/d/1iZ1h2U1aPbuX8et0umsLbRLgTDI60XBW/view?usp=sharing)** | Archivo CSV fuente (T3 2025) |
+| 🔮 **[Simulador Interactivo](./Simulador_Ingresos.html)** | Calculadora de ingresos (Modelo Mincer) |
 
 ## Resumen Ejecutivo
 
