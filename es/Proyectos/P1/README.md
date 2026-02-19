@@ -1,6 +1,7 @@
 # 📊 Análisis de Determinantes del Ingreso en México
 
 ## ⚡ Accesos Rápidos
+
 | Archivo | Descripción |
 |---|---|
 | 📓 **[Notebook de Análisis](./Analisis_Ingresos.ipynb)** | Código completo en Jupyter Notebook |
