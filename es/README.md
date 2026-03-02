@@ -39,6 +39,17 @@ Este proyecto de ingeniería de datos desarrolla un modelo de regresión lineal 
 
 ---
 
+### [📊 Perfil del Empleador Mexicano: Clasificación Logística](./Estudio-de-casos/Perfil-Empleador-Analisis/README.md)
+**Tecnologías:** `Python`, `Pandas`, `Statsmodels`, `Scikit-learn`
+
+**Resumen del reporte:**
+Este estudio aplica **Regresión Logística** para clasificar a trabajadores como empleadores o empleados subordinados usando datos de la **ENOE 2025** (~91k observaciones). El análisis se centra en:
+* Abordar el desbalance severo (93/7) mediante un modelo unificado con **pesos balanceados** (`sm.GLM` + `var_weights`).
+* Cuantificar la **brecha de género patronal** (-43.5% en probabilidades para mujeres) y la relación inversa entre educación formal y emprendimiento.
+* Interpretar la elasticidad logarítmica del ingreso como predictor dominante (+50.5% al duplicar ingresos).
+
+---
+
 ## 🗂️ Proyecto
 
 ### [📊 Análisis de Determinantes del Ingreso en México](./Proyectos/P1/README.md)
