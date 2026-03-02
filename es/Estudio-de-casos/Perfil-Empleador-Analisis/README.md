@@ -14,8 +14,8 @@ Los datos provienen de la **Encuesta Nacional de Ocupación y Empleo (ENOE)** de
 ## 🗂️ Índice de Navegación
 Para facilitar la revisión del estudio, los recursos se presentan en los siguientes formatos:
 
-* 🌐 [**Reporte Interactivo (Vista Web)**](./A2.1_612864.html): **Formato recomendado** para lectura fluida en navegador.
-* 📓 [**Cuaderno Técnico (Jupyter Notebook)**](./A2.1_612864.ipynb): Documento con código fuente y metodología para reproducibilidad.
+* 🌐 [**Reporte Interactivo (Vista Web)**](./Perfil-Empleador-Analisis.html): **Formato recomendado** para lectura fluida en navegador.
+* 📓 [**Cuaderno Técnico (Jupyter Notebook)**](./Perfil-Empleador-Analisis.ipynb): Documento con código fuente y metodología para reproducibilidad.
 * 💾 **[Dataset (ENOE)](https://drive.google.com/file/d/1iZ1h2U1aPbuX8et0umsLbRLgTDI60XBW/view?usp=sharing)**: Archivo CSV fuente (T3 2025).
 
 ---
