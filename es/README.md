@@ -50,6 +50,17 @@ Este estudio aplica **Regresión Logística** para clasificar a trabajadores com
 
 ---
 
+### [📊 Análisis Predictivo del Perfil del Empleador: LDA vs. Árboles de Decisión](./Estudio-de-casos/LDA-y-DT.analisis/README.md)
+**Tecnologías:** `Python`, `Pandas`, `Matplotlib`, `Seaborn`, `Scikit-learn`
+
+**Resumen del reporte:**
+Este estudio compara algoritmos de discriminación paramétrica (**LDA**) y particionamiento no paramétrico (**Decision Trees**) para clasificar el rol laboral frente a un desbalance severo (93/7). El análisis se centra en:
+* Evaluar violaciones a la homoscedasticidad y preprocesamiento de características dependientes.
+* Controlar el sesgo mayoritario mediante `priors` y de `class_weight='balanced'`.
+* Detener el memorizado extremo del árbol mediante **Cost Complexity Pruning** con Validación Cruzada (F1-Score).
+
+---
+
 ## 🗂️ Proyecto
 
 ### [📊 Análisis de Determinantes del Ingreso en México](./Proyectos/P1/README.md)
