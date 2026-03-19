@@ -61,6 +61,17 @@ Este estudio compara algoritmos de discriminación paramétrica (**LDA**) y part
 
 ---
 
+### [📊 Modelos de Ensamble y Aprendizaje No Lineal](./Estudio-de-casos/ModelosEnsamble-SVM-RN/README.md)
+**Tecnologías:** `Python`, `Pandas`, `Scikit-learn`, `MLP (RN)`, `SVM`
+
+**Resumen del reporte:**
+Este estudio evalúa arquitecturas avanzadas de aprendizaje no lineal (**Random Forest, AdaBoost, SVM y Redes Neuronales**) para predecir el rol laboral bajo condiciones extremas de desbalance. El análisis se centra en:
+* Implementar métodos de ensamble (Bagging y Boosting) y funciones de base radial en SVM.
+* Diseñar una red neuronal parsimoniosa con mecanismos de *Early Stopping* para prevenir sobreajuste.
+* Determinar el "techo informativo" de las variables mediante una comparativa de AUC-ROC y F1-Score.
+
+---
+
 ## 🗂️ Proyecto
 
 ### [📊 Análisis de Determinantes del Ingreso en México](./Proyectos/P1/README.md)
