@@ -83,5 +83,16 @@ Este proyecto econométrico cuantifica los factores que determinan el ingreso la
 *   Medir la brecha salarial de género, encontrando una penalización del **-18.54% para mujeres** *ceteris paribus*.
 *   Aplicar limpieza avanzada de datos con **Isolation Forest** para eliminar anomalías multidimensionales en el mercado laboral.
 
+---
+
+### [🏦 Predicción de Suscripción a Depósito a Plazo Fijo](./Proyectos/P2/README.md)
+**Tecnologías:** `Python`, `Pandas`, `Scikit-learn`, `TensorFlow/Keras`
+
+**Resumen del reporte:**
+Este proyecto desarrolla un modelo de clasificación supervisada para predecir la suscripción a depósitos a plazo fijo utilizando datos de telemarketing bancario (~41k registros). El análisis se provee mediante:
+*   Manejar un desbalance de clases severo (8:1) optimizando la métrica **AUC-ROC** frente a sesgos poblacionales.
+*   Realizar ingeniería de características diferenciando meticulosamente tipos computacionales vs metodológicos.
+*   Entrenar y confrontar algoritmos de clasificación, desde modelos lineales base lineales hasta Ensambles y Redes Neuronales.
+
 
 [⬅️ Volver al Inicio del Portafolio](../README.md)
