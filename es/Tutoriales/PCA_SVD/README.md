@@ -48,7 +48,8 @@ El motor de recomendación utiliza una versión optimizada de **SVD Truncado** p
 
 - **Breast Cancer Wisconsin**: Características morfológicas de núcleos celulares.
 - **MovieLens 100K**: 100,000 calificaciones de 1,682 películas por 943 usuarios.
-  - `u.data`: Calificaciones brutas.
-  - `u.item`: Metadatos de películas (títulos y géneros).
+  - 💾 **[u.data](./u.data)**: Calificaciones brutas (UserId, ItemId, Rating).
+  - 💾 **[u.item](./u.item)**: Metadatos de películas (títulos y géneros).
+
 
 [⬅️ Volver al Portafolio](../../README.md)
