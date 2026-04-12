@@ -94,5 +94,20 @@ Este proyecto desarrolla un modelo de clasificación supervisada para predecir l
 *   Realizar ingeniería de características diferenciando meticulosamente tipos computacionales vs metodológicos.
 *   Entrenar y confrontar algoritmos de clasificación, desde modelos lineales base lineales hasta Ensambles y Redes Neuronales.
 
+---
+
+## 🗂️ Tutoriales
+
+### [✨ Reducción de Dimensionalidad: PCA y SVD Truncado](./Tutoriales/PCA_SVD/README.md)
+**Tecnologías:** `Python`, `Scikit-learn`, `JavaScript`, `HTML/CSS`
+
+**Resumen del reporte:**
+Este tutorial práctico cubre técnicas de reducción de dimensionalidad mediante dos aplicaciones reales:
+*   **PCA**: Clasificación de tumores (Breast Cancer Wisconsin) analizando la varianza explicada y la separación de clases.
+*   **SVD Truncado**: Implementación de un motor de recomendación de películas (MovieLens 100K) que opera íntegramente en el navegador.
+*   Explica la lógica de centrado de datos, proyección al espacio latente y reconstrucción de matrices para predicción.
+
+---
 
 [⬅️ Volver al Inicio del Portafolio](../README.md)
+
