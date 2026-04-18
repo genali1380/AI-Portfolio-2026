@@ -109,5 +109,16 @@ Este tutorial práctico cubre técnicas de reducción de dimensionalidad mediant
 
 ---
 
+### [✨ Agrupamiento: K-Means y Clustering Jerárquico](./Tutoriales/Clustering/README.md)
+**Tecnologías:** `Python`, `Scikit-learn`, `Matplotlib`, `Seaborn`
+
+**Resumen del reporte:**
+Este tutorial práctico cubre técnicas de aprendizaje no supervisado explorando algoritmos de segmentación:
+*   **K-Means**: Demostración y análisis métrico geométrico aplicados a un dataset de agregación artificial (sintético).
+*   **Clustering Jerárquico**: Implementación analítica sobre estructuras aglomerativas validada por análisis de dendrogramas iterativos.
+
+
+---
+
 [⬅️ Volver al Inicio del Portafolio](../README.md)
 
