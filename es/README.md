@@ -120,5 +120,15 @@ Este tutorial práctico cubre técnicas de aprendizaje no supervisado explorando
 
 ---
 
+### [✨ Aprendizaje por Refuerzo y Multiple Testing en Sistemas Mecatrónicos](./Tutoriales/MT_RL/README.md)
+**Tecnologías:** `Python`, `Gymnasium`, `Numpy`, `Statsmodels`, `HTML/JS`
+
+**Resumen del reporte:**
+Este documento práctico cubre la implementación de agentes inteligentes y validación estadística:
+*   **Q-Learning**: Entrenamiento de un Vehículo de Guiado Automático (AGV) en un entorno simulado (`Taxi-v4`), sincronizando los resultados frame a frame a un visor interactivo web.
+*   **Multiple Testing**: Análisis de Varianza (ANOVA) y pruebas T con corrección de Holm-Bonferroni para validar empíricamente qué configuraciones de aprendizaje son estadísticamente superiores.
+
+---
+
 [⬅️ Volver al Inicio del Portafolio](../README.md)
 
