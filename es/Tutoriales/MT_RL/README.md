@@ -1,6 +1,6 @@
-# ✨ Aprendizaje por Refuerzo y Multiple Testing en Sistemas Mecatrónicos
+# ✨ Aprendizaje por Refuerzo y Multiple Testing 
 
-Este proyecto documenta la implementación de un agente de **Aprendizaje por Refuerzo Tabular (Q-Learning)** para optimizar las rutas de un Vehículo de Guiado Automático (AGV) en un entorno logístico simulado (`Taxi-v4` de Gymnasium). Además, se aplica rigor estadístico (**Multiple Testing**) para comparar diferentes configuraciones del modelo mediante pruebas de hipótesis, asegurando la validez de las mejoras en la política de aprendizaje.
+Este trabajo documenta la implementación de un agente de **Aprendizaje por Refuerzo Tabular (Q-Learning)** para optimizar las rutas de un Vehículo de Guiado Automático (AGV) en un entorno logístico simulado (`Taxi-v4` de Gymnasium). Además, se aplica rigor estadístico (**Multiple Testing**) para comparar diferentes configuraciones del modelo mediante pruebas de hipótesis, asegurando la validez de las mejoras en la política de aprendizaje.
 
 ## ⚡ Accesos Rápidos
 
@@ -11,7 +11,7 @@ Este proyecto documenta la implementación de un agente de **Aprendizaje por Ref
 
 ---
 
-## 🧪 Contenido del Proyecto
+## 🧪 Contenido 
 
 ### 1. Control del AGV con Q-Learning
 Se utiliza el entorno `Taxi-v4` como representación de un almacén logístico donde un AGV debe aprender a navegar, recoger y entregar carga minimizando el tiempo y las penalizaciones.
