@@ -7,6 +7,7 @@ Este trabajo documenta la implementación de un agente de **Aprendizaje por Refu
 | Recurso | Descripción |
 |---|---|
 | 📓 **[Notebook: Documentación Q-Learning](./AGV_QLearning_Doc.ipynb)** | Guía paso a paso sobre el entrenamiento del AGV y análisis estadístico |
+| 📄 **[Reporte Web (Q-Learning)](./AGV_QLearning_Doc.html)** | Versión HTML de la documentación del proyecto |
 | 🌐 **[Simulación Interactiva del Entrenamiento](./agv_training_replay.html)** | Interfaz HTML interactiva para reproducir y analizar los episodios del agente |
 
 ---
