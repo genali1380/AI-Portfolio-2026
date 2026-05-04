@@ -120,7 +120,7 @@ Este tutorial práctico cubre técnicas de aprendizaje no supervisado explorando
 
 ---
 
-### [✨ Aprendizaje por Refuerzo y Multiple Testing en Sistemas Mecatrónicos](./Tutoriales/MT_RL/README.md)
+### [✨ Aprendizaje por Refuerzo y Multiple Testing](./Tutoriales/MT_RL/README.md)
 **Tecnologías:** `Python`, `Gymnasium`, `Numpy`, `Statsmodels`, `HTML/JS`
 
 **Resumen del reporte:**
