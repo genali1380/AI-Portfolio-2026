@@ -96,6 +96,17 @@ Este proyecto desarrolla un modelo de clasificación supervisada para predecir l
 
 ---
 
+### [🔬 Subtipos Moleculares en HNSC: Análisis Transcriptómico](./Proyectos/P3/README.md)
+**Tecnologías:** `Python`, `Pandas`, `Scikit-learn`, `PCA`, `K-Means`, `Seaborn`
+
+**Resumen del reporte:**
+Este proyecto emplea aprendizaje automático no supervisado para analizar datos transcriptómicos de la cohorte TCGA-HNSC (>500 pacientes). El análisis se centra en:
+*   Preprocesar datos masivos (>60,000 características) superando la "maldición de la dimensionalidad" mediante filtrado de varianza (MAD) y **PCA**.
+*   Identificar estructuras biológicas latentes mediante **K-Means**, descubriendo dos subtipos moleculares con propensiones metastásicas opuestas.
+*   Capturar exitosamente y "a ciegas" la firma diferencial del VPH frente al tabaquismo extremo, proveyendo evidencia empírica para la oncología de precisión.
+
+---
+
 ## 🗂️ Tutoriales
 
 ### [✨ Reducción de Dimensionalidad: PCA y SVD Truncado](./Tutoriales/PCA_SVD/README.md)
